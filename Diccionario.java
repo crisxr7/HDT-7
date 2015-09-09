@@ -32,7 +32,7 @@ public class Diccionario {
         int letra_a_string;
         try
         {
-        FileReader leerArchivo = new FileReader("C:\\Users\\Karla Silva\\Documents\\NetBeansProjects\\Ejercicios\\HojaTrabajo7\\src\\diccionario.txt");
+        FileReader leerArchivo = new FileReader("diccionario.txt");
         BufferedReader buffer = new BufferedReader(leerArchivo);
         while ((linea = buffer.readLine()) != null)
         {
